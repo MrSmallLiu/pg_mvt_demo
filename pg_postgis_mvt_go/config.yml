@@ -3,9 +3,9 @@ port: ":9080"
 # 数据库连接信息配置
 database:
   driver: "postgres"
-  host: "172.16.111.6"
+  host: "*.*.*.*"
   port: "9999"
   user: "postgres"
-  dbname: "tycdcth_test"
-  password: "geoc_sport"
+  dbname: "*"
+  password: "*"
   sslmode: "disable"

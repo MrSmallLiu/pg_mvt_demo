@@ -14,18 +14,17 @@ module.exports = appInfo => {
   config.sequelize = {
     dialect: 'postgres', // support: mysql, mariadb, postgres, mssql
 
-    host: '172.16.111.6',
-    database: 'tycdcth_test',
+    host: '*.*.*.*',
+    database: '***',
 
     port: '9999',
     username: 'postgres',
-    password: 'geoc_sport',
+    password: '********',
     timezone: '+08:00',
     pool: {
       max: 5,
       min: 0,
       idle: 10000,
-      acquire: 20000,
     },
     logging: console.log,
   };
